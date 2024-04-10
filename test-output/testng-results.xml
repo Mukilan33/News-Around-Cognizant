@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-29T17:21:33 IST" name="Suite" finished-at="2024-03-29T17:27:45 IST" duration-ms="372179">
+    <groups>
+    </groups>
+    <test started-at="2024-03-29T17:21:33 IST" name="ChromeTest" finished-at="2024-03-29T17:24:37 IST" duration-ms="184406">
+      <class name="testCases.TC_001_News_Around_Cognizant">
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:21:33 IST" name="setDriver" finished-at="2024-03-29T17:21:41 IST" duration-ms="8164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="validateUser()[pri:1, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:21:41 IST" name="validateUser" finished-at="2024-03-29T17:21:57 IST" duration-ms="15880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method signature="validationOfAroundCognizant()[pri:2, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:21:58 IST" name="validationOfAroundCognizant" finished-at="2024-03-29T17:22:01 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfAroundCognizant -->
+        <test-method signature="newsAroundCognizantFirstPage()[pri:3, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:22:01 IST" name="newsAroundCognizantFirstPage" finished-at="2024-03-29T17:22:07 IST" duration-ms="6317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsAroundCognizantFirstPage -->
+        <test-method signature="clickSeeAll()[pri:4, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:22:08 IST" name="clickSeeAll" finished-at="2024-03-29T17:22:17 IST" duration-ms="9249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSeeAll -->
+        <test-method signature="SecondPage()[pri:5, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:22:17 IST" name="SecondPage" finished-at="2024-03-29T17:22:23 IST" duration-ms="5370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondPage -->
+        <test-method signature="top5News()[pri:6, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:22:23 IST" name="top5News" finished-at="2024-03-29T17:24:36 IST" duration-ms="132745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- top5News -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_News_Around_Cognizant@53fb3dab]" started-at="2024-03-29T17:24:36 IST" name="closeBrowser" finished-at="2024-03-29T17:24:37 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_001_News_Around_Cognizant -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-03-29T17:24:44 IST" name="EdgeTest" finished-at="2024-03-29T17:27:45 IST" duration-ms="180725">
+      <class name="testCases.TC_001_News_Around_Cognizant">
+        <test-method is-config="true" signature="setDriver(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:24:44 IST" name="setDriver" finished-at="2024-03-29T17:24:51 IST" duration-ms="6830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://cognizantonline.sharepoint.com/sites/Be.Cognizant/SitePages/Home.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="validateUser()[pri:1, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:24:51 IST" name="validateUser" finished-at="2024-03-29T17:25:07 IST" duration-ms="15615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method signature="validationOfAroundCognizant()[pri:2, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:25:07 IST" name="validationOfAroundCognizant" finished-at="2024-03-29T17:25:10 IST" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfAroundCognizant -->
+        <test-method signature="newsAroundCognizantFirstPage()[pri:3, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:25:10 IST" name="newsAroundCognizantFirstPage" finished-at="2024-03-29T17:25:16 IST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsAroundCognizantFirstPage -->
+        <test-method signature="clickSeeAll()[pri:4, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:25:16 IST" name="clickSeeAll" finished-at="2024-03-29T17:25:25 IST" duration-ms="9232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSeeAll -->
+        <test-method signature="SecondPage()[pri:5, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:25:25 IST" name="SecondPage" finished-at="2024-03-29T17:25:31 IST" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondPage -->
+        <test-method signature="top5News()[pri:6, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:25:31 IST" name="top5News" finished-at="2024-03-29T17:27:43 IST" duration-ms="132205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- top5News -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.TC_001_News_Around_Cognizant@70ed52de]" started-at="2024-03-29T17:27:43 IST" name="closeBrowser" finished-at="2024-03-29T17:27:45 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC_001_News_Around_Cognizant -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
